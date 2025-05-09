@@ -145,3 +145,13 @@ form button:hover {
 .product-item button:hover {
     background-color: #6048ff;
 }
+
+@media (max-width: 680px) {
+    header nav ul {
+        display: none;
+    }
+    header h1 {
+        text-align: center;
+        width: 100%;
+    }
+}
